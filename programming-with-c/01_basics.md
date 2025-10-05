@@ -60,8 +60,7 @@ int main() {
 | `{ ... }` | Function body, contains the executable code |
 | `return 0;` | Indicates successful program termination |
 
-💡 In Python, functions don’t have to specify a return type,  
-but in C, **every function must** — even `main()`.
+💡 In Python, functions don’t have to specify a return type,  but in C, **every function must** — even `main()`.
 
 
 You can define additional helper functions besides `main()`.
@@ -116,5 +115,5 @@ The C compiler (like `gcc`) processes your code in these steps:
 ---
 
 ✅ **In short:**
-> Every C program starts from `int main()`.  
-> It must return an integer, typically `0`, meaning “Program executed successfully.”
+- Every C program starts from `int main()`.  
+- It must return an integer, typically `0`, meaning “Program executed successfully.”
